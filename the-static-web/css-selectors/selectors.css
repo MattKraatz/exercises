@@ -1,0 +1,51 @@
+header {
+  border: 1px solid firebrick;
+}
+
+header ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 1em;
+}
+
+.disabled {
+  color: grey;
+}
+
+a span.disabled {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.background-red {
+  background: red;
+}
+
+.background-blue {
+  background: blue;
+}
+
+.grandparent > h4 {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.promo {
+  font-weight: bold;
+  color: gold;
+}
+
+input[type='text'] {
+  height: 25px;
+}

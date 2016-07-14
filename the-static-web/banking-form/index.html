@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banking Form Exercise</title>
+</head>
+<body>
+
+<form>
+  <fieldset>
+    <h2>Applicant Information</h2>
+    <label> First Name: 
+      <input type="text" name="firstName">
+    </label>
+    <label> Middle Name: 
+      <input type="text" name="middleName">
+    </label>
+    <label> Last Name: 
+      <input type="text" name="lastName">
+    </label>
+    <label> Address: 
+      <input type="text" name="address">
+    </label>
+    <label> Occupation: 
+      <input type="text" name="occupation" placeholder="What do you do for work?">
+    </label>
+    <label> Employer: 
+      <input type="text" name="address">
+    </label>
+    <label> Employer Address: 
+      <input type="text" name="address">
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <h2>Loan Information</h2>
+    <h4>Loan Type</h4>
+    <label>
+      <input type="radio" name="loanType" id="commercial">Commercial
+    <label>
+      <input type="radio" name="loanType" id="realEstate">Real Estate
+    </label>
+    <label>
+      <input type="radio" name="loanType" id="personal">Personal
+    </label>
+    <label>
+      <input type="radio" name="loanType" id="mortgage">Mortgage
+    </label>
+    <br>
+    <label>Loan Amount
+      <input type="number" name="loanAmount">
+    </label>
+    <br>
+    <h4>Loan Length</h4>
+    <label>
+      <input type="radio" name="loanAmount" id="5yrs">5 Years
+    <label>
+      <input type="radio" name="loanAmount" id="15yrs">15 Years
+    </label>
+    <label>
+      <input type="radio" name="loanAmount" id="30yrs">30 Years
+    </label>
+    <h4>Loan Conditions</h4>
+    <label>
+      <input type="radio" name="loanConditions" id="downPayment">I have a down payment
+    <label>
+      <input type="radio" name="loanConditions" id="outOfStateResident">I am an out-of-state resident
+    </label>
+    <label>
+      <input type="radio" name="loanConditions" id="married">I am married
+    </label>
+    <label>
+      <input type="radio" name="loanConditions" id="coSign">I will have a co-signer on this loan
+    </label>
+  </fieldset>
+  <fieldset>
+    <label>Any comments?
+      <textarea></textarea>
+    </label>
+  </fieldset>
+  <fieldset>
+    <h2>Contact Information</h2>
+    <label>Email Address: 
+      <input type="email" name="email">
+    </label>
+    <label>Phone Number: 
+      <input type="tel" name="phone">
+    </label>
+    <label>LinkedIn Profile: 
+      <input type="url" name="linkedIn">
+    </label>
+  </fieldset>
+  <input type="submit" name="submit">
+</form>
+
+</body>
+</html>

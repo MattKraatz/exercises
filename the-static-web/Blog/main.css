@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 400px;
+  display: block;
+}
+
+.red_outline {
+  border: 1px solid red;
+  padding: 20px 35px;
+  margin: 10px;
+  background-color: azure;
+}
+
+a {
+  text-decoration: none;
+  color: firebrick;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+fieldset {
+  display:inline-block;
+  border:none;
+}
+
+#article1 {
+
+}
+
+#article2 {
+
+}
+
+#article3 {
+
+}

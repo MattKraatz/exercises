@@ -1,0 +1,11 @@
+a:hover {
+  color: red;
+}
+
+a li:hover {
+  background-color: black;
+}
+
+a li:active {
+  padding: 0 5px;
+}

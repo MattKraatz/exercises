@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Matt's Crazy Blog</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <header>
+    <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Links</li>
+    </ul>
+  </header>
+
+<!-- User Input Forms start here -->
+
+<form action="">
+  <fieldset>
+    <label for="firstName" class="hidden">First Name</label>
+    <input type="text" required name="firstName" id="firstName" placeholder="First Name">
+    <label for="email" class="hidden">Email</label>
+    <input type="email" required name="email" id="email" placeholder="me@me.com">
+    <label for="age" class="hidden">Age</label>
+    <input type="number" required name="age" id="age" placeholder="27" min="18" max="25">
+    <label for="color" class="hidden">Color</label>
+    <input type="color" name="color" id="color">
+    <label for="website" class="hidden">Website</label>
+    <input type="url" required name="website" id="website">
+    <label for="country" class="hidden">Country</label>
+    <input type="text" required name="country" id="country" value="USA">
+    <input type="submit" name="submit" id="submit" value="Other Text">
+  </fieldset>
+  <br>
+  <fieldset>
+    <h3>Allergies</h3>
+    <label>
+      <input class="" checked type="checkbox" name="peanuts" value="peanuts">Peanuts
+    </label>
+    <label>
+      <input class="" type="checkbox" name="shellfish" value="shellfish">Shellfish
+    </label>
+    <label>
+      <input class="" type="checkbox" name="soy" value="soy">Soy
+    </label>
+    <label>
+      <input class="" type="checkbox" name="gluten" value="gluten">Gluten
+    </label>
+  </fieldset>
+  <br>
+  <fieldset>
+    <label>
+      <input class="" type="radio" name="gender" value="male">Male
+    </label>
+    <label>
+      <input class="" type="radio" name="gender" value="female">Female
+    </label>
+  </fieldset>
+</form>
+
+<label for="bio" class="hidden">Bio</label>
+<textarea placeholder="Ipsum loren" id="bio"></textarea>
+
+<!-- Articles start here. 3 Sections per Article. Each Article has a header, footer, image and link w/ text. -->
+
+  <article id="article1">
+    <section class="red_outline">
+      <header>
+        <h2>Article A: This is the header</h2>
+      </header>
+      <img src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt="">
+      <a href="http://google.com" target="_blank">Let me Google that for you...</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+      <footer>This is the footer</footer>
+    </section>
+    <section class="red_outline">
+      <header>
+        <h2>This is the header</h2>
+      </header>
+      <img src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt="">
+      <a href="http://google.com" target="_blank">Let me Google that for you...</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+      <footer>This is the footer</footer>
+    </section>
+    <section class="red_outline">
+      <header>
+        <h2>This is the header</h2>
+      </header>
+      <img src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt="">
+      <a href="http://google.com" target="_blank">Let me Google that for you...</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+      <footer>This is the footer</footer>
+    </section>
+  </article>
+
+ <article id="article2">
+    <section class="red_outline">
+      <header>
+        <h2>Article B: This is the header</h2>
+      </header>
+      <img src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt="">
+      <a href="http://google.com" target="_blank">Let me Google that for you...</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+      <footer>This is the footer</footer>
+    </section>
+    <section class="red_outline">
+      <header>
+        <h2>This is the header</h2>
+      </header>
+      <img src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt="">
+      <a href="http://google.com" target="_blank">Let me Google that for you...</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+      <footer>This is the footer</footer>
+    </section>
+    <section class="red_outline">
+      <header>
+        <h2>This is the header</h2>
+      </header>
+      <img src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt="">
+      <a href="http://google.com" target="_blank">Let me Google that for you...</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+      <footer>This is the footer</footer>
+    </section>
+  </article>
+
+   <article id="article3">
+    <section class="red_outline">
+      <header>
+        <h2>Article C: This is the header</h2>
+      </header>
+      <img src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt="">
+      <a href="http://google.com" target="_blank">Let me Google that for you...</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+      <footer>This is the footer</footer>
+    </section>
+    <section class="red_outline">
+      <header>
+        <h2>This is the header</h2>
+      </header>
+      <img src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt="">
+      <a href="http://google.com" target="_blank">Let me Google that for you...</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+      <footer>This is the footer</footer>
+    </section>
+    <section class="red_outline">
+      <header>
+        <h2>This is the header</h2>
+      </header>
+      <img src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg" alt="">
+      <a href="http://google.com" target="_blank">Let me Google that for you...</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a nibh ut risus consequat lobortis. Phasellus eu enim a nunc hendrerit rutrum id at nunc. Nullam bibendum, tortor in sagittis hendrerit, dolor risus vestibulum neque, et euismod nisl massa a metus. In at nisi lectus. Nunc vitae enim felis. Mauris auctor augue condimentum purus egestas egestas. Donec non sapien eget urna viverra sollicitudin vitae vitae enim. Nam euismod pellentesque leo a elementum. Praesent egestas mauris a mauris porta finibus at eu enim.</p>
+      <footer>This is the footer</footer>
+    </section>
+  </article>
+
+  <footer>
+    &copy; <span>Matt Kraatz</span>
+  </footer>
+</body>
+</html>
