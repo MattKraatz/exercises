@@ -1,0 +1,28 @@
+.color {
+  color: blue;
+}
+
+.hulk {
+  font-size: 2em;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.rounded {
+  border-radius: 15px;
+}
+
+section:first-child {
+  font-weight: bold;
+}
+
+section:last-child {
+  font-weight: bold;
+  font-style: italic;
+}
+
+button {
+  display: block;
+}
