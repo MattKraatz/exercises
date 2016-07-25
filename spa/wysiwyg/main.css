@@ -1,0 +1,11 @@
+article:nth-child(even) {
+  background-color: #FFFF6B;
+}
+
+article:nth-child(odd) {
+  background-color: #7A62C9;
+}
+
+.border {
+  border: 1px dotted black;
+}
