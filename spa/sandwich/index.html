@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sandwich Maker</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<h1>Build your sandwich!</h1>
+<h4>Hold command or control to select multiple items</h4>
+
+<form>
+  <select multiple name="bread" id="bread">
+    <option value="white">White</option>
+    <option value="wheat">Wheat</option>
+    <option value="rye">Rye</option>
+    <option value="sourdough">Sourdough</option>
+  </select>
+
+  <select multiple name="meat" id="meat">
+    <option value="turkey">Turkey</option>
+    <option value="ham">Ham</option>
+    <option value="chicken">Chicken</option>
+    <option value="meatballs">Meatballs</option>
+  </select>
+
+  <select multiple name="cheese" id="cheese">
+    <option value="cheddar">Cheddar</option>
+    <option value="swiss">Swiss</option>
+    <option value="provolone">Provolone</option>
+    <option value="american">American</option>
+  </select>
+
+  <select multiple name="condiments" id="condiments">
+    <option value="mayo">Mayo</option>
+    <option value="mustard">Mustard</option>
+    <option value="aoli">Aoli</option>
+    <option value="ketchup">Ketchup</option>
+  </select>
+
+  <select multiple name="veggies" id="veggies">
+    <option value="lettuce">Lettuce</option>
+    <option value="onion">Onion</option>
+    <option value="tomato">Tomato</option>
+    <option value="spinach">Spinach</option>
+  </select>
+</form>
+<button type="button" onclick="Sandwich.maker()">Calculate Total</button>
+
+<div id="outputTarget"></div>
+
+<script type="text/javascript" src="js/sandwichMaker.js"></script>
+<script type="text/javascript" src="js/ingred.js"></script>
+</body>
+</html>
