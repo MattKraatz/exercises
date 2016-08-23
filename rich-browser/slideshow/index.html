@@ -2,25 +2,33 @@
 <html>
 <head>
   <title>My Slideshow</title>
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-<div class="current">
-  <img src="https://unsplash.it/400/400/?image=0">
-</div>
-<div class="current">
-  <img src="https://unsplash.it/400/400/?image=1">
-</div>
-<div class="current">
-  <img src="https://unsplash.it/400/400/?image=2">
-</div>
-<div class="current">
-  <img src="https://unsplash.it/400/400/?image=3">
-</div>
-<div class="current">
-  <img src="https://unsplash.it/400/400/?image=4">
-</div>
-
-
+  <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+  <div class="current">
+    <img src="https://unsplash.it/400/400/?image=0">
+  </div>
+  <div class="hidden">
+    <img src="https://unsplash.it/400/400/?image=1">
+  </div>
+  <div class="hidden">
+    <img src="https://unsplash.it/400/400/?image=2">
+  </div>
+  <div class="hidden">
+    <img src="https://unsplash.it/400/400/?image=3">
+  </div>
+  <div class="hidden">
+    <img src="https://unsplash.it/400/400/?image=4">
+  </div>
+  <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+  <br>
+  <select>
+    <option>Fade</option>
+    <option>Slide</option>
+  </select>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
