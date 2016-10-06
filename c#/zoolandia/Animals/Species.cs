@@ -5,7 +5,6 @@ namespace Zoolandia
   public class Cow:Animal
   {
     public bool milk { get; set; }
-    public bool horns { get; set; }
     public int spots { get; set; }
     public override void sound()
     {
@@ -33,7 +32,6 @@ namespace Zoolandia
   public class Cat:Animal
   {
     public bool claws { get; set; }
-    public bool whiskers { get; set; }
     public override void sound()
     {
       Console.WriteLine("meow");

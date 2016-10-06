@@ -1,15 +1,21 @@
+using System;
+
 namespace Zoolandia
 {
   public class TexasLonghorn:Cow
   {
-    public float hornLength { get; set; }
+    string commonName = "Texas Longhorn";
+    public override void walk()
+    {
+      Console.WriteLine("{name} the {commonName} is walking!");
+    }
   }
   public class Highland:Cow
   {
-    public float hairLength { get; set; }
-  }
-  public class BelgianBlue:Cow
-  {
-    public bool doubleMuscle { get; set; }
+    string commonName = "Highland Cattle";
+    public override void walk()
+    {
+      Console.WriteLine("{name} the {commonName} is walking!");
+    }
   }
 }

@@ -13,20 +13,26 @@ namespace Zoolandia
                 height = 60,
                 gender = "female",
                 milk = false,
-                horns = true,
                 spots = 20
             };
+
             Cow cow2 = new Cow("Holy Cow");
             Cow cow3 = new Cow(15);
             Cow cow4 = new Cow("Betsy",25);
+
             Cat cat = new Cat
             {
                 weight = 1350,
                 height = 55.46,
                 gender = "male",
-                claws = true,
-                whiskers = true
+                claws = true
             };
+
+            Siamese siamese = new Siamese();
+            siamese.eat();
+            siamese.eat("catfood");
+            siamese.eat(4, "cat treats");
+
             Dog dog = new Dog
             {
                 weight = 1325,
@@ -39,9 +45,7 @@ namespace Zoolandia
             MyAnimals.Add(cow);
             MyAnimals.Add(cat);
             MyAnimals.Add(dog);
-            MyAnimals.Add(cow2);
-            MyAnimals.Add(cow3);
-            MyAnimals.Add(cow4);
+            MyAnimals.Add(siamese);
 
             foreach (Animal animal in MyAnimals)
             {
