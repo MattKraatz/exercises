@@ -14,8 +14,11 @@ namespace Zoolandia
                 gender = "female",
                 milk = false,
                 horns = true,
-                spots = false
+                spots = 20
             };
+            Cow cow2 = new Cow("Holy Cow");
+            Cow cow3 = new Cow(15);
+            Cow cow4 = new Cow("Betsy",25);
             Cat cat = new Cat
             {
                 weight = 1350,
@@ -36,6 +39,9 @@ namespace Zoolandia
             MyAnimals.Add(cow);
             MyAnimals.Add(cat);
             MyAnimals.Add(dog);
+            MyAnimals.Add(cow2);
+            MyAnimals.Add(cow3);
+            MyAnimals.Add(cow4);
 
             foreach (Animal animal in MyAnimals)
             {
