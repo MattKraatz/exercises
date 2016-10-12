@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Zoolandia.animals;
 
 namespace Zoolandia
 {
@@ -7,50 +8,47 @@ namespace Zoolandia
     {
         public static void Main(string[] args)
         {
-            Cow cow = new Cow
+            // Generate Habitats
+            Habitat Pasture = new Pasture();
+            Habitat Home = new PetHome();
+            
+            // Generate Animals
+            Animal Texas = new Animal
             {
-                weight = 1500,
-                height = 60,
-                gender = "female",
-                milk = false,
-                spots = 20
+                species = new TexasLonghorn(),
+                gender = "Male"
             };
+            Texas.setName("Bessie");
 
-            Cow cow2 = new Cow("Holy Cow");
-            Cow cow3 = new Cow(15);
-            Cow cow4 = new Cow("Betsy",25);
-
-            Cat cat = new Cat
+            Animal Siam = new Animal
             {
-                weight = 1350,
-                height = 55.46,
-                gender = "male",
-                claws = true
+                species = new Siamese(),
+                gender = "female"
             };
+            Siam.setName("Mouser");
 
-            Siamese siamese = new Siamese();
-            siamese.eat();
-            siamese.eat("catfood");
-            siamese.eat(4, "cat treats");
-
-            Dog dog = new Dog
+            Animal Grey = new Animal
             {
-                weight = 1325,
-                height = 48.35,
-                gender = "male",
-                bark = true
+                species = new Greyhound(),
+                gender = "male"
             };
+            Grey.setName("Sparky");
 
-            List<Animal> MyAnimals = new List<Animal>();
-            MyAnimals.Add(cow);
-            MyAnimals.Add(cat);
-            MyAnimals.Add(dog);
-            MyAnimals.Add(siamese);
+            // Load Animals into Habitats
+            Pasture.inhabitants.Add(Texas);
+            Home.inhabitants.Add(Siam);
+            Home.inhabitants.Add(Grey);
 
-            foreach (Animal animal in MyAnimals)
+            // Resolve to Console
+            Console.WriteLine(Pasture.name);
+            foreach (Animal animal in Pasture.inhabitants)
             {
-                Console.WriteLine($"I have a {animal.gender} {animal.GetType().Name} named {animal.name}, who weighs {animal.weight} and is {animal.height} inches tall.");
-                animal.sound();
+                Console.WriteLine($"   My {animal.gender} {animal.species.genus.GetType().Name} named {animal.name} lives here!");
+            }
+            Console.WriteLine(Home.name);
+            foreach (Animal animal in Home.inhabitants)
+            {
+                Console.WriteLine($"   My {animal.gender} {animal.species.genus.GetType().Name} named {animal.name} lives here!");
             }
         }
     }
